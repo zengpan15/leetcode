@@ -3,10 +3,6 @@ function searchInsert(nums: number[], target: number): number {
         if(nums[i]>=target){
             return i;
         }
-
-
     }
     return nums.length;
-    
-
 };
